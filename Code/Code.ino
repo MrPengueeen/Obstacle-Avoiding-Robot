@@ -37,12 +37,6 @@ void loop()
   if (distance < 20)
   {
     tone(buzzer, 500);
-
-
-
-    //  delay
-
-
     motorStop();
     delay(1000);
     goRight();
@@ -53,25 +47,6 @@ void loop()
     goForward();
 
   }
-
-  // motorStop();
-  // delay(5000);
-  //goBackward();
-  //delay(5000);
-  //motorStop();
-  //delay(5000);
-  //goLeft();
-  //delay(5000);
-  //motorStop();
-  //delay(5000);
-  //goRight();
-  //delay(5000);
-  //motorStop();
-  //delay(5000);
-
-
-
-
 }
 
 void goForward() {
